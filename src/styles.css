@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #5D3FD3;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    height: 10vh;
+    color: white;
+    border-radius: 10px;
+}
+
+.links{
+    margin-left: auto;
+}
+
+.links a{
+    text-decoration: none;
+    margin-left: 16px;
+    color: white;
+}
+
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.book{
+    text-align: center;
+    padding: 8px;
+    width: 20%;
+}
+
+.book-image{
+    height: 150px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn{
+    color: white;
+    background-color: #5D3FD3;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    margin-top: 12px;
+}
+
+.cart{
+    margin-top: 20px;
+}
+
+.cart table{
+    width: 100%;
+}
+
+.book-image-cart{
+    height: 100px;
+    width: 70px;
+}
+
+.cart-action {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.action-button{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.item-amount{
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.book-details{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.book-details img {
+    height: 300px;
+}
